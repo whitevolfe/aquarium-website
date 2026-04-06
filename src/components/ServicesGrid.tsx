@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
-import portfolio1 from '@/assets/portfolio-1.jpg';
+import portfolio1 from '@/assets/aquareef-img8.jpeg';
 import portfolio2 from '@/assets/portfolio-2.jpg';
-import portfolio3 from '@/assets/portfolio-3.jpg';
-import portfolio5 from '@/assets/portfolio-5.jpg';
-import portfolio6 from '@/assets/portfolio-6.jpg';
-import commercialAquarium from '@/assets/commercial-aquarium.jpg';
-import serviceInstall from '@/assets/service-install.jpg';
+import portfolio3 from '@/assets/aquareef-img2.jpeg';
+import portfolio5 from '@/assets/aquareef-img7.jpeg';
+import portfolio6 from '@/assets/aquareef-img3.jpeg';
+import commercialAquarium from '@/assets/aquareef-img9.jpeg';
+import serviceInstall from '@/assets/aquareef-img10.jpeg';
 
 const services = [
   {

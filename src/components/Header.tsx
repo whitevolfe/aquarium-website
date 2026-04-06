@@ -39,7 +39,7 @@ const Header = () => {
               href='tel:+94771234567'
               className='flex items-center gap-1.5 hover:text-amber transition-colors'
             >
-              <Phone className='w-3 h-3' /> +94 77 123 4567
+              <Phone className='w-3 h-3' /> +94 70 111 1711
             </a>
             <a
               href='mailto:info@aquareefaquarium.lk'
@@ -139,7 +139,7 @@ const Header = () => {
                     href='tel:+94771234567'
                     className='flex items-center gap-2 text-sm text-amber font-medium font-body'
                   >
-                    <Phone className='w-4 h-4' /> +94 77 123 4567
+                    <Phone className='w-4 h-4' /> 070 111 1711
                   </a>
                   <Link to='/contact' className='btn-amber text-center text-xs'>
                     Free Consultation

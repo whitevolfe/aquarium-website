@@ -59,7 +59,7 @@ const ConsultationSection = () => {
             </div>
 
             <a
-              href="https://wa.me/94771234567?text=Hi%2C%20I'm%20interested%20in%20a%20custom%20aquarium."
+              href="https://wa.me/94701111711?text=Hi%2C%20I'm%20interested%20in%20a%20custom%20aquarium."
               target='_blank'
               rel='noopener noreferrer'
               className='mt-8 flex items-center gap-3 bg-[#25D366] text-primary-foreground rounded-sm px-5 py-3 text-sm font-semibold font-body hover:bg-[#1fb855] transition-colors w-fit'

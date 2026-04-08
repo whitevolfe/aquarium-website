@@ -49,7 +49,7 @@ const Header = () => {
             </a>
           </div>
           <a
-            href='https://wa.me/94771234567'
+            href='https://wa.me/94701111711'
             target='_blank'
             rel='noopener noreferrer'
             className='flex items-center gap-1.5 hover:text-amber transition-colors'

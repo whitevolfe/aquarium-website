@@ -8,6 +8,7 @@ import EditorialBlocks from '@/components/EditorialBlocks';
 import ThreeColumnInfo from '@/components/ThreeColumnInfo';
 import ServicesGrid from '@/components/ServicesGrid';
 import WhyChooseUs from '@/components/WhyChooseUs';
+import VideoSection from '@/components/VideoSection';
 
 const Index = () => (
   <>
@@ -44,6 +45,7 @@ const Index = () => (
     <ThreeColumnInfo />
     <ServicesGrid />
     <WhyChooseUs />
+    <VideoSection />
     <ReviewsSection />
     <CTABanner />
   </>

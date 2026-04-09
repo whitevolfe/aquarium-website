@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const VideoSection = () => {
   const videos = [
@@ -38,6 +38,7 @@ const VideoSection = () => {
               <video
                 src={video.src}
                 autoPlay
+                playsInline
                 className='w-full h-full object-cover transition-all duration-300'
                 muted
                 loop

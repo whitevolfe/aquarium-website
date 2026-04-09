@@ -7,6 +7,7 @@ import CTABanner from '@/components/CTABanner';
 import EditorialBlocks from '@/components/EditorialBlocks';
 import ThreeColumnInfo from '@/components/ThreeColumnInfo';
 import ServicesGrid from '@/components/ServicesGrid';
+import WhyChooseUs from '@/components/WhyChooseUs';
 
 const Index = () => (
   <>
@@ -42,6 +43,7 @@ const Index = () => (
     <EditorialBlocks />
     <ThreeColumnInfo />
     <ServicesGrid />
+    <WhyChooseUs />
     <ReviewsSection />
     <CTABanner />
   </>

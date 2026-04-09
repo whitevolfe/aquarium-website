@@ -11,14 +11,38 @@ const ConsultationSection = () => {
     message: '',
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!form.name.trim() || !form.phone.trim()) {
       toast.error('Please fill in your name and phone number.');
       return;
     }
-    toast.success("Thank you! We'll contact you shortly.");
-    setForm({ name: '', phone: '', email: '', message: '' });
+
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: 'Bearer 26c0c484-0f08-44f4-9b53-85677e50cfd5',
+        },
+        body: JSON.stringify({
+          name: form.name,
+          phone: form.phone,
+          email: form.email,
+          message: form.message,
+          subject: 'New Consultation Request from Aqua Reef Aquarium',
+        }),
+      });
+
+      if (response.status === 200) {
+        toast.success("Thank you! We'll contact you shortly.");
+        setForm({ name: '', phone: '', email: '', message: '' });
+      } else {
+        throw new Error('Failed to submit form');
+      }
+    } catch (error) {
+      toast.error('Failed to submit form. Please try again.');
+    }
   };
 
   return (

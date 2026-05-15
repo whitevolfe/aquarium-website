@@ -9,6 +9,7 @@ import ThreeColumnInfo from '@/components/ThreeColumnInfo';
 import ServicesGrid from '@/components/ServicesGrid';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import VideoSection from '@/components/VideoSection';
+import OurTeamSection from '@/components/OurTeamSection'; // New import
 
 const Index = () => (
   <>
@@ -45,6 +46,7 @@ const Index = () => (
     <ThreeColumnInfo />
     <ServicesGrid />
     <WhyChooseUs />
+    <OurTeamSection />
     <VideoSection />
     <ReviewsSection />
     <CTABanner />
